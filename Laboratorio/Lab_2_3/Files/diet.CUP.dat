@@ -1,0 +1,17 @@
+#insiemi
+set I := loc1 loc2 loc3 loc4 loc5 loc6;
+set J := qre1 qre2 qre3 qre4 qre5 qre6;
+
+#parametri
+param C := loc1 1 loc2 1 loc3 1 loc4 1 loc5 1 loc6 1;
+
+param D := qre1 1 qre2 1 qre3 1 qre4 1 qre5 1 qre6 1;
+
+param A (tr): 	loc1 	loc2 	loc3 	loc4 	loc5 	loc6 :=
+qre1			1		1		0		0		0		0
+qre2			1		1		0		0		0		1
+qre3			0		0		1		1		0		0
+qre4			0		0		1		1		0		0
+qre5			0		0		0		1		1		0
+qre6			0		1		0		0		1		1
+;
