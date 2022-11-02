@@ -1,0 +1,6 @@
+reset;
+model pc.mod;
+data pc.dat;
+option solver cplex;
+solve;
+display costo, x;

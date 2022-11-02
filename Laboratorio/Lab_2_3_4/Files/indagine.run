@@ -1,0 +1,8 @@
+reset;
+model dieta.mod;
+data indagine.dat;
+
+option solver cplex;
+solve;
+
+display costo, x;
