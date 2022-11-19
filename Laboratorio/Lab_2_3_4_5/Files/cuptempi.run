@@ -1,0 +1,6 @@
+reset;
+model cuptempi.mod
+data cuptempi.dat;
+option solver gurobi;
+solve;
+display costo, x;

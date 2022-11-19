@@ -1,0 +1,21 @@
+reset;
+model pc.mod;
+data pc.dat;
+option solver cplex;
+solve;
+display costo, x;
+
+display {i in I, j in J: x[i,j]>0}  x[i,j];
+display {i in I} (produzione[i].body, A[i]);
+
+printf "\n\n*********** IPOTESI **********\n";
+let bil2 := 0.40;
+solve;
+
+display {i in I} (produzione[i].body, A[i]);
+
+printf "\n\n*********** ELENCO FORNITURE ESCLUSIVE **********\n";
+for {j in J, i in I: x[i,j]>0} {
+	printf "%12s --> %12s: %8.2f / %8.2f %c\n", i, j, x[i,j], B[j], if(x[i,j]==B[j]) then '*' else '';
+}
+
