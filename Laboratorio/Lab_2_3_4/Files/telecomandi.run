@@ -1,5 +1,0 @@
-reset;
-model telecomandi.mod;
-option solver cplex;
-solve;
-display profit, xA, xB;

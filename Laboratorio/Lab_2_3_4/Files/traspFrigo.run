@@ -1,6 +1,0 @@
-reset;
-model trasporto.mod;
-data traspFrigo.dat;
-option solver cplex;
-solve;
-display costo_totale, x;
