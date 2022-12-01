@@ -1,0 +1,26 @@
+set N := A B C D E F;
+set A := A B  A C  B C  B E  B F  B D
+		C F  D F  E C  E D  F E;
+
+param : c 	u:=	#w:=
+A B  7		6	#32
+A C  8		6	#14
+B C  -1		6	#11
+B E  1		6	#2
+B F  5		6	#14
+B D  4		6	#10
+C F  3		6	#48
+D F  1		6	#33
+E C  -2		6	#9
+E D  0		6	#14
+F E  3		6	#18
+;
+
+param b default 0 :=
+A -4
+B -4
+C 6
+D 10
+E -4
+F -4
+;

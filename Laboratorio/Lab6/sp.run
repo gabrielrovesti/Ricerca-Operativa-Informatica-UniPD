@@ -1,0 +1,8 @@
+reset;
+model sp.mod;
+data sp.dat;
+option solver cplex;
+option relax_integrality 0;
+solve;
+display f, x;
+display {(i,j) in A: x[i,j] >0} x[i,j];
