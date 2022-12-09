@@ -1,0 +1,5 @@
+Differenze tra 6-7 CFU:
+
+Per chi ha 7 CFU deve considerare:
+- dimensionamenti delle variabili di Big-M
+- vincoli di attivazione spuri
