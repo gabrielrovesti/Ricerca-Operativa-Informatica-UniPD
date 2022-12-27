@@ -1,6 +1,0 @@
-reset;
-model dieta.mod;
-data diet.CUP.dat;
-option solver xpress;
-solve;
-display costo, x;

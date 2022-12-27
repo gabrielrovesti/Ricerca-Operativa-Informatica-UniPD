@@ -7,7 +7,7 @@ param b{N}; #parametro di bilanciamento
 #param w{A};
 #param W;
 
-param u{A};
+param u{A}; #unità del problema
 
 check: sum{i in N} b[i] = 0;
 var x{A} integer >=0;
