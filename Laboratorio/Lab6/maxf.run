@@ -1,8 +1,0 @@
-reset;
-model maxf.mod;
-data maxf.dat;
-option solver cplex;
-option relax_integrality 0;
-solve;
-display flow, x;
-display {(i,j) in A: x[i,j] >0} x[i,j];

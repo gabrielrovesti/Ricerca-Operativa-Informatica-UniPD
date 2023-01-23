@@ -1,6 +1,0 @@
-reset;
-option solver cplex;
-model test.mod;
-data file.dat;
-solve;
-display ricavo, x;
