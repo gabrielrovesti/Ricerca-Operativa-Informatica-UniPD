@@ -1,0 +1,8 @@
+- Perché il prof non si ferma subito con il simplesso?
+
+- Io credo sia per un fatto di voler "rendere evidente" la cosa, 
+quindi il fatto che individuando che è illimitato in un passaggio, 
+continuerà a rimanere illimitato nel corso delle iterazioni. 
+Dovrebbe essere ugualmente corretto fermarsi subito, 
+ma ho visto che anche in altre sue correzioni lui ha un problema illimitato,
+ ma avanza comunque e mostra con più passaggi che rimane come tale.
