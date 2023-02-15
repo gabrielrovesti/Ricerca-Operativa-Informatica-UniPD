@@ -6,3 +6,8 @@ continuerà a rimanere illimitato nel corso delle iterazioni.
 Dovrebbe essere ugualmente corretto fermarsi subito, 
 ma ho visto che anche in altre sue correzioni lui ha un problema illimitato,
  ma avanza comunque e mostra con più passaggi che rimane come tale.
+ 
+ - Occorre mettere la spiegazione di tutti i passaggi per gli algoritmi dei grafi (come si vede negli appelli di esempio)?
+
+- Si; si parla apposta di "giustificare" i passi dell'algoritmo in una tabella. Anche perché, logicamente,
+si fa capire che quello che si sta facendo non piove dal cielo.
