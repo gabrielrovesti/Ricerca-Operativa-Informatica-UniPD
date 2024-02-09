@@ -1,5 +1,5 @@
-# Ricerca-operativa-UniPD
-Corso di Ricerca Operativa tenuto a UniPD, Informatica, 2022/2023 dal prof. De Giovanni
+# Ricerca-Operativa-Informatica-UniPD
+Corso di Ricerca Operativa tenuto a UniPD, Informatica, 2022/2023 dal prof. Luigi De Giovanni
 
 Materiale proveniente per la maggior parte dal MEGA del Fiup, messo e riorganizzato per la maggior parte negli ultimi
 anni dal sottoscritto, archiviato sia a fini di studio personale (repo privata resa pubblica)
